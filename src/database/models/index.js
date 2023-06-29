@@ -22,7 +22,9 @@ try {
     dialect: process.env.DB_MOTOR
   });
 } catch (error) {
-  console.log(error);  
+  console.log(error,
+    process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, process.env.DB_HOST,process.env.DB_MOTOR
+  );  
 }
 
 
