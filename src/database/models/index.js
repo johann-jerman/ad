@@ -15,7 +15,10 @@ let sequelize;
 // } else {
 //   sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
-sequelize = new Sequelize(config.database, config.username, config.password, config);
+sequelize = new Sequelize("liza_db", "liza_db_user", "o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv", {
+  host: "postgres://liza_db_user:o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv@dpg-cietkrh5rnujc4p7icl0-a/liza_db",
+  dialect: "postgres"
+});
 
 
 fs
