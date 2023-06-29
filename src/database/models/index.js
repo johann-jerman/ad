@@ -16,10 +16,14 @@ let sequelize;
 // } else {
 //   sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
-sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
-  host: process.env.DB_HOST,
-  dialect: process.env.DB_MOTOR
-});
+try {
+  sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
+    host: process.env.DB_HOST,
+    dialect: process.env.DB_MOTOR
+  });
+} catch (error) {
+  console.log(error);  
+}
 
 
 fs
