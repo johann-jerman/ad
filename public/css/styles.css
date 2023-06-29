@@ -1,0 +1,335 @@
+/* aca poner los colores
+los colores viejos
+.color1 {color: #002734;}
+.color2 {color: #00495a;}
+.color3 {color: #00778b;}
+.color4 {color: #00b2c7;}
+.color5 {color: #00fbff;}
+
+los colores nuevos
+.color1 {color: #042850 ;}
+.color2 {color: #048484 ;}
+.color3 {color: #045c94 ;}
+.color4 {color: #147c8c ;}
+.color5 {color: #f4f4f4 ;}
+
+font-family: 'Montserrat', sans-serif;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; 
+  
+}
+
+/* aca empieza el slider */
+
+.slider {
+  display: flex;
+  flex-direction: column; /* Agrega esta línea para que los puntos aparezcan debajo de las imágenes */
+  justify-content: center; /* Agrega esta línea para centrar verticalmente los elementos */
+  align-items: center; /* Agrega esta línea para centrar horizontalmente los elementos */
+  width: 100%;
+  height: 670px;
+  overflow: hidden;
+  position: relative;
+  background-color: #3f3f3f;
+}
+
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Cambia esto de 600px a 100% para que la imagen ocupe toda la altura del slider */
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  background-color: #3f3f3f;
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.slider-dot.active {
+  background-color: #fff;
+}
+/* aca comienza la navegacion del main */
+
+.main-margin{
+    background-color: #3f3f3f;
+}
+.section-navegation {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  background-color: #3f3f3f;
+  margin: 0px 100px 0px 100px;
+  padding-bottom: 20px;
+}
+
+.main-nav {
+  position: relative;
+  width: 100%;
+}
+
+.main-nav img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+  
+}
+  
+
+.main-nav p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3f3f3f;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0px;
+  font-weight: 500;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.main-nav:hover p {
+  opacity: 0;
+}
+.main-nav .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 10px;
+}
+
+.main-nav:hover .img-hover {
+  opacity: 0.7;
+}
+
+/* aca comienza la seccion favoritas y ofertas */
+
+.index-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+}
+
+.offers {
+  display: none;
+}
+.is-visible {
+  display: block;
+}
+#Offers-link{
+  
+  background-image: linear-gradient(180deg, #3f3f3f 0%, #254362 100%);
+  text-align: center;
+  color: #f4f4f4;
+  padding: 20px;
+}
+.reelfavorites{
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(180deg, #254362 0%, #0093e9 100%);
+  padding-right: 20px; 
+  padding-left: 20px;
+  margin-bottom: 1px;
+  
+}
+
+.index-section2 {
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    padding: 20px;
+     
+}
+
+.box-index {
+  position: relative;
+  width: 100%;
+}
+.box-index:hover {
+  box-shadow: 0px 0px 10px #042850;
+}
+.box-index img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.box-index p,
+h4 {
+  color: #fefefe;
+}
+.product-name {
+  font-size: 16px;
+}
+.box-index div {
+   text-align: center;
+  background-color: #045c94;
+  margin-left: 20px;
+  margin-right: 20px
+}
+div .fa-regular {
+  font-size: 20px;
+  display: none;
+}
+div .fa-solid {
+  font-size: 20px;
+}
+
+.box-index:hover .fa-regular {
+  color: #ff0051;
+  display: block;
+  transition: 1000ms;
+}
+.fav-position {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  padding: 5px;
+}
+.fa-beat {
+  color: #ff0051;
+  transition: 1000ms;
+}
+/* aca empieza el footer */
+.footer-conteiner {
+  margin: 0 auto;
+  padding: 5px;
+  color: #f4f4f4;
+  background-color: #042850;
+  text-align: center;
+}
+footer li {
+  list-style: none;
+}
+.footer-img {
+  width: 50xp;
+  height: 50px;
+}
+.arrow-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #cfcfcf;
+  width: 33px;
+  height: 33px;
+}
+/* text-align: center; */
+
+@media (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+
+  .slider-dots {
+    display: none
+  }
+
+  .section-navegation {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f3f3f;
+    margin: 0px 10px 0px 10px;
+  }
+  .index-section2 {
+    display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-row: auto;  
+       
+  }
+  .main-nav p {
+    
+    font-size: 1em;
+    
+  }
+
+}
+
+
+@media (max-width: 425px) {
+  div .fa-solid {
+    font-size: 12px;
+  }
+  .section-navegation {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f3f3f;
+    margin: 0px;    
+  }
+  .index-section2 {
+    display: grid;
+      grid-template-columns: 1fr;
+      grid-row: auto;  
+       
+  }
+  .arrow-parent {
+
+    align-self: flex-end;
+    justify-self: center
+}
+.reelfavorites {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 20px;
+}
+.arrow-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #cfcfcf;
+  width: 20px;
+  height: 20px;
+}
+}
+
+
+

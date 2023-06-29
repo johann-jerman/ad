@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../partials/head.ejs') %>
+<body>
+    <%- include('../partials/header.ejs') %>
+    <main id="cart-main">
+        <!-- <button type="button" id="delete-cart" 
+        >
+            Eliminar Todo
+        </button> -->
+        <section id="cart-conteiner" class="container">
+            <h1>Mi carrito</h1>
+            <div class="cart">
+                <div class="products" id="products">
+
+                </div>
+                <div class="cart-total" id="cart-total">
+
+                </div>
+
+            </div>
+            
+        </section>
+        
+
+    </main>
+
+    <%- include('../partials/footer.ejs') %>
+</body>
+<script src="/js/cartRender.js"></script>
+<script src="/js/cartLogic.js"></script>
+<script src="/js/shoppingCartEvt.js"></script>
+</html>
+
+

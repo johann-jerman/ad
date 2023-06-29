@@ -1,0 +1,102 @@
+/* los colores nuevos .color1 {
+  color: #042850;
+}
+.color2 {
+  color: #048484;
+}
+.color3 {
+  color: #045c94;
+}
+.color4 {
+  color: #147c8c;
+}
+.color5 {
+  color: #f4f4f4;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.amarillo{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.input-error{
+  color: red;
+}
+.amarillo img {
+  max-width: 100%; 
+  max-height: 100%; 
+  display: block;
+}
+
+/* aca comienza el main  */
+.register-form {
+  background-color: #ebebeb;
+  width: 90%;
+  max-width: 900px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 30px;
+}
+
+
+.register-form .register-label {
+  justify-content: flex-start;
+}
+
+.register-input{
+  width: 50%;
+  height: 32px;
+  margin-bottom: 10px;
+  border: #045c94 1px solid;
+  border-radius: 20px;
+}
+
+.register-input:hover{
+  width: 65%;
+  transition: 1000ms;
+  
+}
+.user-type {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.user-option {
+  justify-content: flex-start;
+  display: block;
+}
+
+.register-form .register-button {
+  margin: 15px;
+  width: 175px;
+  height: 30px;
+  background-color: #045c94;
+  color: #f4f4f4;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+.register-form .register-button:hover {
+  background-color: #042850;
+  transition: 1000ms;
+}
+
+.p {
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 1024px) {
+  
+}

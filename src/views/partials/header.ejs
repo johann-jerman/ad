@@ -1,0 +1,71 @@
+<!-- <script src=".header.js"></script> -->
+<body>
+  <header>
+    <!-- comienza el header -->
+    <div class="header-conteiner">
+      <div class="rows1">
+        <!-- burger menu para movile -->
+        <div class="burger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <!-- Logo de Liza -->
+        <div class="logo">
+          <a href="/">
+            <img
+              class="size-logo"
+              src="/images/LogoLizaText.png"
+              alt="logo Liza"
+            />
+          </a>
+          
+        </div>
+      </div>
+      <!-- barra de busqueda -->
+      <div class="search-conteiner">
+        <form class="form">
+          <input type="text" required />
+          <label class="lbl-nombre">
+            <span class="text-nomb">Buscar</span>
+          </label>
+        </form>
+      </div>
+
+      <!-- icono carrito -->
+      <div class="cart">
+        <a href="/product/shopping-cart">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+      </div>
+      <!-- icono User -->
+      <% if (!locals.logged && !locals.admin) { %>
+      <div class="user">
+        <a href="/user/login">
+          <i class="fa-solid fa-user"></i>
+        </a>
+      </div>
+      <% } %> <% if (locals.logged) { %>
+      <div class="user">
+        <a href="/user/profile">
+          <img class="icon" src="/images/users/<%= locals.userLogged.image %>" alt="imagen de usuario">
+        </a>
+      </div>
+      <% } %> <% if (locals.isAdmin) { %>
+        <div class="user">
+          <a href="/user/admin">
+            <img class="icon" src="/images/users/<%= locals.admin.image %>" alt="imagen de usuario">
+        </a>
+      </div>
+      <% } %>
+      
+      <!-- <div> 
+evento on click mouse over
+      </div> -->
+    </div>
+    <!-- marcador de promocion superior -->
+    <div class="promotionbar">
+      <p id="promotion1">Envío Gratis en compras superiores a $25.000</p>
+      <p id="promotion2">3 x 2 Aprovecha !!</p>
+    </div>
+    <script src="/js/header-baner.js"></script>
+  </header>
+</body>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head') %>
+
+  <body>
+    <%- include('./partials/header')%>
+    <div class="slider">
+      <img src="/images/slider1.jpg" />
+      <img src="/images/slider2.jpg" />
+      <img src="/images/slider3.jpg" />
+    </div>
+    <div class="slider-dots">
+      <span class="slider-dot" data-index="0"></span>
+      <span class="slider-dot" data-index="1"></span>
+      <span class="slider-dot" data-index="2"></span>
+    </div>
+
+      <Div class="main-margin">
+        <section class="section-navegation">
+          <article class="main-nav">
+            <a href="/product/man">            
+              <img
+                src="/images/Men.jpg"
+                alt="imagen de hombre"
+                class="img-main"
+              />
+              <img
+                src="/images/men4.png"
+                alt="imagen de hombre"
+                class="img-hover"
+              />          
+              <p>MEN</p>
+            </a>
+          </article>
+          <article class="main-nav">
+            <a href="/product/women">
+              <img
+                src="/images/women.jpg"
+                alt="imagen de mujer"
+                class="img-main"
+              />
+              <img
+                src="/images/women4.png"
+                alt="imagen de mujer"
+                class="img-hover"
+              />
+              <p>WOMEN
+              </p>
+            </a>
+          </article>
+          <article class="main-nav">
+            <a href="#Offers-link">
+              <img
+                src="/images/Ofertas.jpg"
+                alt="imagen de ofertas"
+                class="img-main"
+              />
+              <img
+                src="/images/sale3.png"
+                alt="imagen de ofertas"
+                class="img-hover"
+              />
+              <p>SALE</p>
+            </a>
+          </article>
+        </section>
+      </Div>
+
+      
+      <h2 id="Offers-link">Ofertas</h2>
+      <div class="reelfavorites">
+        <div class="arrow-parent">
+          <i class="fa-solid fa-chevron-left arrow" id="left"></i>
+        </div>
+        <section class="index-section2">
+          
+          <% productsInOffer.forEach((product, i) => { %>        
+            <article
+            class="offers box-index <%= i < 4? 'is-visible': null %>"
+            data-id="<%= i %>"
+          >
+            <a href="/product/detail/<%= product.id %> ">
+              <img
+                src="/images/products/<%= product.image[0].image %> "
+                alt="Imagen del Producto"
+              />
+            </a>
+            <div>
+              <!-- fa-beat -->
+              <p class="product-name"><%= product.name %></p>
+              <p>$<%= product.price %></p>
+              <!-- <p>%= product.description %> </p> -->
+              
+            </div>
+          </article>
+          <% }) %>
+          
+            
+        </section>
+        <div class="arrow-parent">
+          <i class="fa-solid fa-chevron-right arrow" id="right"></i>
+        </div>
+      </div>
+      
+    </main>
+    <%- include('./partials/footer')%>
+    <script src="/js/offers.js"></script>
+    <script src="/js/slider.js"></script>
+  </body>
+</html>

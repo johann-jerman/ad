@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head') %>
+
+</head>
+<body>
+<%- include('../partials/header') %>
+<main class="main">    
+    <div class="paint">
+      
+      <form action="/product/delete/<%= producto.id %>?_method=DELETE" method="post">
+        
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" value="<%= producto.name %>">
+        </div>
+        
+        <div class="form-group">
+          <label for="description">Descripción:</label>
+          <textarea id="description" name="description"><%= producto.description %></textarea>
+        </div>
+        
+        <div class="form-group">
+          <!-- <label for="image">Imagen:</label>
+          <input type="file" id="image" name="image"> -->
+          <img src="/images/products/<%= producto.image %>" alt="<%= producto.image %>">
+        </div>
+        
+        <div class="form-group">
+          <label for="category">Categoria:</label>
+          <select id="category" name="category">
+            <option value="">Seleccionar categoria</option>
+            <option value="man">Man</option>
+            <option value="women">women</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="size">Talla:</label>
+          <select id="size" name="size">
+            <option value="">Seleccionar categoria</option>
+            <option value="S">S</option>
+            <option value="L">L</option>
+            <option value="M">M</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="price">Precio:</label>
+          <input type="text" id="price" name="price" value="<%= producto.price %>">
+        </div>
+        
+        <button type="submit" class="add-btn">Delete</button>
+    </div>
+      </form>
+    <Div class="foot">
+    <%- include('../partials/footer') %>
+    </Div>    
+</body>
+</html>
