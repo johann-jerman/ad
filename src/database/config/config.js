@@ -7,6 +7,16 @@ module.exports =
     database: 'liza_db',
     host: 'dpg-cietkrh5rnujc4p7icl0-a',
     dialect: 'postgres',
+    migrationStorage: 'sequelize',
+    migrationStorageTableName: 'sequelize_meta',
+    seederStorage: 'sequelize',
+    seederStorageTableName: 'sequelize_data',
+    define: {
+      timestamps: false,
+      underscored: true,
+    },
+    migrationStoragePath: 'src/database/migrations',
+    seederStoragePath: 'src/database/seeders',
   },
   // "development": {
   //   "username":  "liza_db_user",
