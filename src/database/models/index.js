@@ -17,13 +17,18 @@ let sequelize;
 //   sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
 
-  sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
-    host: process.env.DB_HOST,
-    dialect: process.env.DB_MOTOR
-  });
+  sequelize = new Sequelize(
+    process.env.DB_HOST,
+  );
+  // sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
+  //   host: process.env.DB_HOST,
+  //   dialect: process.env.DB_MOTOR
+  // });
 
   console.log(
-    process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, process.env.DB_HOST,process.env.DB_MOTOR
+    // process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, process.env.DB_MOTOR,
+    process.env.DB_HOST,
+    "conecction"
   )
 
 
