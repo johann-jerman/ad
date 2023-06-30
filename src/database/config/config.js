@@ -1,9 +1,13 @@
 require('dotenv').config()
 module.exports = 
 {
-  "production": {
-    "host": process.env.DB_HOST
-  }
+  development: {
+    username: 'liza_db_user',
+    password: 'o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv',
+    database: 'liza_db',
+    host: 'dpg-cietkrh5rnujc4p7icl0-a',
+    dialect: 'postgres',
+  },
   // "development": {
   //   "username":  "liza_db_user",
   //   "password":  "o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv",
