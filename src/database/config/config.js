@@ -1,13 +1,16 @@
-// require('dotenv').config()
+require('dotenv').config()
 module.exports = 
 {
-  "development": {
-    "username":  "liza_db_user",
-    "password":  "o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv",
-    "database":  "liza_db",
-    "host":  "postgres://liza_db_user:o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv@dpg-cietkrh5rnujc4p7icl0-a/liza_db",
-    "dialect":  "postgres",
-  },
+  "production": {
+    "host": process.env.DB_HOST
+  }
+  // "development": {
+  //   "username":  "liza_db_user",
+  //   "password":  "o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv",
+  //   "database":  "liza_db",
+  //   "host":  "postgres://liza_db_user:o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv@dpg-cietkrh5rnujc4p7icl0-a/liza_db",
+  //   "dialect":  "postgres",
+  // },
   // "development": {
   //   "username": process.env.DB_USERNAME || "liza_db_user",
   //   "password": process.env.DB_PASSWORD || "o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv",
