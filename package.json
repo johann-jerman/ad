@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "npm install && npm audit fix && psql postgres://liza_db_user:o8jwygzr2N6jIsWhV6lTDXnGxLz0yaFv@dpg-cietkrh5rnujc4p7icl0-a/liza_db -c $npm_package_dir/src/database/script/liza.sql"
+    "build": "npm install && npm audit fix && npx sequelize-cli db:migrate"
   },
 
   "repository": {
