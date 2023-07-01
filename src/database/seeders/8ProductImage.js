@@ -20,7 +20,7 @@ module.exports = {
         image_id: 2,
         product_id: 1,
         created_at: new Date(),
-        updatedAt: new Date(),
+        updated_at: new Date(),
         deleted_at: null
       },
       {
