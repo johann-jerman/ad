@@ -144,7 +144,10 @@ module.exports = {
         email:  'ro@gmail.com',
         // image:  'ro.jpg',
         image:  'usuarioDefault.png',
-        userCategory_id: 1
+        userCategory_id: 1,
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Mati',
