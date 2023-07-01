@@ -36,7 +36,7 @@ module.exports = {
       userCategory_id: {
           type: Sequelize.INTEGER,
           references: {
-            model: 'Usercategory',
+            model: 'usercategory',
             key: 'id'
           },
       },
