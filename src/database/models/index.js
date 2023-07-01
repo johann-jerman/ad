@@ -17,16 +17,15 @@ let sequelize;
 //   sequelize = new Sequelize(config.database, config.username, config.password, config);
 // }
 
-  sequelize = new Sequelize(
-    process.env.DB_HOST,//url del servicio web donde esta hosteada la base de datos 
-    //y donde corre las migraciones y seeders
-    {
+  sequelize = new Sequelize(process.env.DB_HOST, {
+    dialect: 'postgres',
+    dialectOptions: {
       ssl: {
         require: true,
-        rejectUnauthorized: true, // Puedes ajustar esto según tus requisitos de seguridad
+        rejectUnauthorized: false, // Ajusta esto según tus requisitos de seguridad
       },
-    }
-  );
+    },
+  });
   // sequelize = new Sequelize(process.env.DB_DATABASE, process.env.DB_USERNAME, process.env.DB_PASSWORD, {
   //   host: process.env.DB_HOST,
   //   dialect: process.env.DB_MOTOR
