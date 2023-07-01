@@ -1,4 +1,4 @@
-const APIDetail = `http://localhost:3004/api/product/detail/`
+const APIDetail = `https://liza-tdjy.onrender.com/api/product/detail/`
 const cartConteiner = document.getElementById('cart-conteiner')
 const productConteiner = document.getElementById('products')
 const cartTotal = document.getElementById('cart-total')
