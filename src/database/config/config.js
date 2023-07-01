@@ -6,7 +6,7 @@ module.exports =
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
     host: process.env.DB_HOST_CONFIG,
-    dialect: process.env.MOTOR,
+    dialect: 'postgres',
     migrationStorage: 'sequelize',
     migrationStorageTableName: 'sequelize_meta',
     seederStorage: 'sequelize',
