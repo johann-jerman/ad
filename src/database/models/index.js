@@ -18,7 +18,7 @@ let sequelize;
 // }
 
   sequelize = new Sequelize(process.env.DB_HOST, {
-    dialect: 'postgres',
+    //dialect: 'postgres',
     dialectOptions: {
       ssl: {
         require: true,
