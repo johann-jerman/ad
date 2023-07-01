@@ -8,12 +8,12 @@ module.exports =
     host: process.env.DB_HOST_CONFIG,
     dialect: 'postgres',
     migrationStorage: 'sequelize',
-    dialectOptions: {
-      ssl: {
-        require: true,
-        rejectUnauthorized: false, // Puedes ajustar esto según tus requisitos de seguridad
-      },
-    },
+    // dialectOptions: {
+    //   ssl: {
+    //     require: true,
+    //     rejectUnauthorized: false, // Puedes ajustar esto según tus requisitos de seguridad
+    //   },
+    // },
     migrationStorageTableName: 'sequelize_meta',
     seederStorage: 'sequelize',
     seederStorageTableName: 'sequelize_data',
