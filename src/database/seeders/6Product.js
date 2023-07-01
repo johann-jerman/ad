@@ -16,7 +16,7 @@ module.exports = {
         price: 5000,
         offer: 5,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -28,7 +28,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -40,7 +40,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -52,7 +52,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -64,7 +64,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -76,7 +76,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -88,7 +88,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -100,7 +100,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -112,7 +112,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -124,7 +124,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -136,7 +136,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -148,7 +148,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -160,7 +160,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -172,7 +172,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -184,7 +184,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -196,7 +196,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -208,7 +208,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -220,7 +220,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -232,7 +232,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -244,7 +244,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -256,7 +256,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -268,7 +268,7 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2,
+        products_category_id: 2,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -280,7 +280,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -292,7 +292,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -304,7 +304,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -316,7 +316,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -328,7 +328,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -340,7 +340,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -352,7 +352,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -364,7 +364,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -376,7 +376,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
@@ -388,7 +388,7 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1,
+        products_category_id: 1,
         created_at: new Date(),
         updated_at: new Date(),
         deleted_at: null
