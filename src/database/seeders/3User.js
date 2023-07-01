@@ -16,7 +16,10 @@ module.exports = {
         email:  'johann@gmail.com',
         // image:  'johann.jpeg',
         image:  'usuarioDefault.png',
-        user_category_id: 1
+        user_category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'johann',
@@ -25,7 +28,10 @@ module.exports = {
         email:  'johannadmin@gmail.com',
         // image:  'johann.jpeg',
         image:  'usuarioDefault.png',
-        user_category_id: 2
+        user_category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Romina',
@@ -34,7 +40,10 @@ module.exports = {
         email:  'jaime.r@gnail.com',
         // image:  'romi.jpg',
         image:  'usuarioDefault.png',
-        user_category_id: 2
+        user_category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Romina',
@@ -43,7 +52,10 @@ module.exports = {
         email:  'romina.j@gmail.com',
         // image:  'romi.jpg',
         image:  'usuarioDefault.png',
-        user_category_id: 1
+        user_category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Josefina',
@@ -52,7 +64,10 @@ module.exports = {
         email:  'jose.c@gmail.com',
         // image:  'jose.jpg',
         image:  'usuarioDefault.png',
-        user_category_id: 2
+        user_category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Josefina',
@@ -61,7 +76,10 @@ module.exports = {
         email:  'josefina.c@gmail.com',
         // image:  'jose.jpg',
         image:  'usuarioDefault.png',
-        user_category_id: 1
+        user_category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Stip',
@@ -69,7 +87,10 @@ module.exports = {
         password: '$2b$10$fPhbLYjxkIVHEZEW1azXJOxVBJcnDyphyuETlUgKg/w3KUksxgiUi',
         email:  'Stipideses@chilito.com',
         image:  'usuarioDefault.png',
-        user_category_id: 2
+        user_category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Stip',
@@ -77,7 +98,10 @@ module.exports = {
         password: '$2b$10$fPhbLYjxkIVHEZEW1azXJOxVBJcnDyphyuETlUgKg/w3KUksxgiUi',
         email:  'Stipideses@yahoo.es',
         image:  'usuarioDefault.png',
-        user_category_id: 1
+        user_category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Micaela',
@@ -85,7 +109,10 @@ module.exports = {
         password: '$2b$10$fPhbLYjxkIVHEZEW1azXJOxVBJcnDyphyuETlUgKg/w3KUksxgiUi',
         email:  'micaeladuq2@gmail.com',
         image:  'usuarioDefault.png',
-        user_category_id: 2
+        user_category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Micaela',
@@ -93,7 +120,10 @@ module.exports = {
         password: '$2b$10$fPhbLYjxkIVHEZEW1azXJOxVBJcnDyphyuETlUgKg/w3KUksxgiUi',
         email:  'micaeladuq@gmail.com',
         image:  'usuarioDefault.png',
-        user_category_id: 1
+        user_category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Tincho',
@@ -102,7 +132,10 @@ module.exports = {
         email:  'eljefe@gmail.com',
         // image:  'jefe.jpg',
         image:  'usuarioDefault.png',
-        user_category_id: 2
+        user_category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Rocio',
@@ -121,7 +154,10 @@ module.exports = {
         // image:  'mati.jpg',
         image:  'usuarioDefault.png',
 
-        user_category_id: 1
+        user_category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
     ], {});
   },

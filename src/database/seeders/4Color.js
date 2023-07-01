@@ -10,37 +10,70 @@ module.exports = {
     */
     await queryInterface.bulkInsert('colors', [
       {
-        color: 'azul'//1
+        color: 'azul',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//1
       },
       {
-        color: 'rojo'//2
+        color: 'rojo',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//2
       },
       {
-        color: 'verde'//3
+        color: 'verde',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//3
       },
       {
-        color: 'naranja'//4
+        color: 'naranja',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//4
       },
       {
-        color: 'violeta'//5
+        color: 'violeta',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//5
       },
       {
-        color: 'rosa'//6
+        color: 'rosa',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//6
       },
       {
-        color: 'gris'//7
+        color: 'gris',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//7
       },
       {
-        color: 'negro'//8
+        color: 'negro',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//8
       },
       {
-        color: 'blanco'//9
+        color: 'blanco',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//9
       },
       {
-        color: 'celeste'//10
+        color: 'celeste',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//10
       },
       {
-        color: 'ocre'//11
+        color: 'ocre',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null//11
       },
     ], {});
   },

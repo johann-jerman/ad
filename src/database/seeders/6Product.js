@@ -16,7 +16,10 @@ module.exports = {
         price: 5000,
         offer: 5,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera blanca para mujer',//2
@@ -25,7 +28,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera Celeste para mujer',//3
@@ -34,7 +40,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera Negra para mujer',//4
@@ -43,7 +52,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera Gris para mujer',//5
@@ -52,7 +64,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//6
@@ -61,7 +76,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//7
@@ -70,7 +88,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//8
@@ -79,7 +100,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//9
@@ -88,7 +112,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//10
@@ -97,7 +124,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//11
@@ -106,7 +136,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Buzo Deportivo para mujer',//12
@@ -115,7 +148,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon Deportivo para mujer',//13
@@ -124,7 +160,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon Deportivo para mujer',//14
@@ -133,7 +172,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon Deportivo para mujer',//15
@@ -142,7 +184,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon Deportivo para mujer',//16
@@ -151,7 +196,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon Deportivo para mujer',//17
@@ -160,7 +208,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon Deportivo para mujer',//18
@@ -169,7 +220,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera Deportiva para mujer',//19
@@ -178,7 +232,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera Deportiva para mujer',//20
@@ -187,7 +244,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera Deportiva para mujer',//21
@@ -196,7 +256,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera Deportiva para mujer',//22
@@ -205,7 +268,10 @@ module.exports = {
         price: 5000,
         offer: 25,
         stock: 10,
-        category_id: 2
+        category_id: 2,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera para hombre',//23
@@ -214,7 +280,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera para hombre',//24
@@ -223,7 +292,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera para hombre',//25
@@ -232,7 +304,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Remera para hombre',//26
@@ -241,7 +316,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera para hombre',//27
@@ -250,7 +328,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera para hombre',//28
@@ -259,7 +340,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Campera para hombre',//29
@@ -268,7 +352,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon para hombre',//30
@@ -277,7 +364,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon para hombre',//31
@@ -286,7 +376,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
       {
         name: 'Pantalon para hombre',//32
@@ -295,7 +388,10 @@ module.exports = {
         price: 4000,
         offer: 7,
         stock: 5,
-        category_id: 1
+        category_id: 1,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+        deletedAt: null
       },
     ], {});
   },
