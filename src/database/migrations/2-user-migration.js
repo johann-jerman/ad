@@ -39,10 +39,22 @@ module.exports = {
             model: 'usercategory',
             key: 'id'
           },
+      },
+      created_at: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updated_at: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      deleted_at: {
+        allowNull: true,
+        type: Sequelize.DATE
       }
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('UserMigrations');
+    await queryInterface.dropTable('Users');
   }
 };
