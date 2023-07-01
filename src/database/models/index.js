@@ -18,11 +18,12 @@ let sequelize;
 // }
 
   sequelize = new Sequelize(
-    process.env.DB_HOST,
+    process.env.DB_HOST,//url del servicio web donde esta hosteada la base de datos 
+    //y donde corre las migraciones y seeders
     {
       ssl: {
         require: true,
-        rejectUnauthorized: false, // Puedes ajustar esto según tus requisitos de seguridad
+        rejectUnauthorized: true, // Puedes ajustar esto según tus requisitos de seguridad
       },
     }
   );
