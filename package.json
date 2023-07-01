@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "build": "npm install && npm audit fix && npx sequelize-cli db:migrate"
+    "start:db":"npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
+    "build": "npm install && npm audit fix && npm run start:db"
   },
 
   "repository": {
