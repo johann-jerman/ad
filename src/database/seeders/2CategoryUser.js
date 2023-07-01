@@ -11,15 +11,15 @@ module.exports = {
     await queryInterface.bulkInsert('usercategory', [
       {
         category: 'user',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         category: 'admin',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
     ], {});
   },

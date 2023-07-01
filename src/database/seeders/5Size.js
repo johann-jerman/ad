@@ -11,45 +11,45 @@ module.exports = {
     await queryInterface.bulkInsert('sizes', [
       {
         size: 'XS',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//1
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//1
       },
       {
         size: 'S',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//2
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//2
       },
       {
         size: 'M',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//3
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//3
       },
       {
         size: 'L',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//4
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//4
       },
       {
         size: 'XL',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//5
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//5
       },
       {
         size: 'XXL',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//6
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//6
       },
       {
         size: 'XXXL',
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null//7
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null//7
       },
     ], {});
   },

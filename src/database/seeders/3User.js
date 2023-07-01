@@ -17,9 +17,9 @@ module.exports = {
         // image:  'johann.jpeg',
         image:  'usuarioDefault.png',
         user_category_id: 1,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'johann',
@@ -29,9 +29,9 @@ module.exports = {
         // image:  'johann.jpeg',
         image:  'usuarioDefault.png',
         user_category_id: 2,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Romina',
@@ -41,9 +41,9 @@ module.exports = {
         // image:  'romi.jpg',
         image:  'usuarioDefault.png',
         user_category_id: 2,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Romina',
@@ -53,9 +53,9 @@ module.exports = {
         // image:  'romi.jpg',
         image:  'usuarioDefault.png',
         user_category_id: 1,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Josefina',
@@ -65,9 +65,9 @@ module.exports = {
         // image:  'jose.jpg',
         image:  'usuarioDefault.png',
         user_category_id: 2,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Josefina',
@@ -77,9 +77,9 @@ module.exports = {
         // image:  'jose.jpg',
         image:  'usuarioDefault.png',
         user_category_id: 1,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Stip',
@@ -88,9 +88,9 @@ module.exports = {
         email:  'Stipideses@chilito.com',
         image:  'usuarioDefault.png',
         user_category_id: 2,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Stip',
@@ -99,9 +99,9 @@ module.exports = {
         email:  'Stipideses@yahoo.es',
         image:  'usuarioDefault.png',
         user_category_id: 1,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Micaela',
@@ -110,9 +110,9 @@ module.exports = {
         email:  'micaeladuq2@gmail.com',
         image:  'usuarioDefault.png',
         user_category_id: 2,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Micaela',
@@ -121,9 +121,9 @@ module.exports = {
         email:  'micaeladuq@gmail.com',
         image:  'usuarioDefault.png',
         user_category_id: 1,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Tincho',
@@ -133,9 +133,9 @@ module.exports = {
         // image:  'jefe.jpg',
         image:  'usuarioDefault.png',
         user_category_id: 2,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
       {
         name: 'Rocio',
@@ -155,9 +155,9 @@ module.exports = {
         image:  'usuarioDefault.png',
 
         user_category_id: 1,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-        deletedAt: null
+        created_at: new Date(),
+        updated_at: new Date(),
+        deleted_at: null
       },
     ], {});
   },
