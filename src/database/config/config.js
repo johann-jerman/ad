@@ -2,11 +2,11 @@ require('dotenv').config()
 module.exports = 
 {
   development: {
-    username: 'liza_db_w2gf_user',
-    password: 'T1LHQNYRZZlsahR0iL8zrMFu8qwA2QL4',
-    database: 'liza_db_w2gf',
-    host: 'dpg-cig6aq5gkuvojjfsr790-a',
-    dialect: 'postgres',
+    username: process.env.DB_USERNAME,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    host: process.env.DB_HOST_CONFIG,
+    dialect: process.env.DB_HOST,
     migrationStorage: 'sequelize',
     migrationStorageTableName: 'sequelize_meta',
     seederStorage: 'sequelize',
