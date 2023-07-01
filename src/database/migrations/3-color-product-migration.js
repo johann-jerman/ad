@@ -10,14 +10,14 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       color_id: {
-        type: DataTypes.INTEGER,
+        type: Sequelize.INTEGER,
         references: {
           model: 'colors',
           key: 'id'
       },
       },
       product_id: {
-          type: DataTypes.INTEGER,
+          type: Sequelize.INTEGER,
           references: {
             model: 'products',
             key: 'id'

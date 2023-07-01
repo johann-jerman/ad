@@ -10,7 +10,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       category : {
-        type : DataType.STRING(100),
+        type : Sequelize.STRING(100),
       },
       created_at: {
         allowNull: false,

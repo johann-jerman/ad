@@ -10,31 +10,31 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name : {
-        type : datatype.STRING(100),
+        type : Sequelize.STRING(100),
         allowNull : false,
       },
 
       lastname : {
-          type : datatype.STRING(100),
+          type : Sequelize.STRING(100),
           allowNull : false,
       },
 
       password : {
-          type : datatype.STRING(255),
+          type : Sequelize.STRING(255),
           allowNull : false,
       },
 
       email : {
-          type : datatype.STRING(255),
+          type : Sequelize.STRING(255),
           allowNull : false,
       },
       
       image : {
-          type : datatype.STRING(255),
+          type : Sequelize.STRING(255),
           allowNull : true,
       },
       userCategory_id: {
-          type: datatype.INTEGER,
+          type: Sequelize.INTEGER,
           references: {
             model: 'usercategory',
             key: 'id'

@@ -10,33 +10,33 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       name : {
-        type : DataType.STRING(100),
+        type : Sequelize.STRING(100),
         allowNull : false,
       },
       care : {
-          type : DataType.TEXT,
+          type : Sequelize.TEXT,
           allowNull : true
       },
       description : {
-          type : DataType.TEXT,
+          type : Sequelize.TEXT,
           allowNull : false,
       },
       price : {
-          type : DataType.INTEGER,
+          type : Sequelize.INTEGER,
           allowNull : false,
       },
       category_id: {
-          type : DataType.INTEGER,
+          type : Sequelize.INTEGER,
           references: {
             model: 'categorysproduct',
             key: 'id'
           },
       },
       offer:{
-          type : DataType.INTEGER,
+          type : Sequelize.INTEGER,
       },
       stock:{
-          type : DataType.INTEGER,
+          type : Sequelize.INTEGER,
           allowNull : false,
       },
       created_at: {
